@@ -108,7 +108,7 @@ OuterLoop:
 				addr.City = comp.LongName
 				continue OuterLoop
 			case componentTypeStateDistrict:
-				addr.StateDistrict = comp.LongName
+				addr.StateDistrict = comp.ShortName
 				continue OuterLoop
 			case componentTypeState:
 				addr.State = comp.LongName
